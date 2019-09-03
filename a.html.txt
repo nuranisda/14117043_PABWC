@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Praktikum 1</title>
+</head>
+<body>
+
+<h1>Latihan Praktikum 1</h1>
+<p>Saya kuliah di Itera</p>
+<p>Sedang mengetik . . </p>
+
+</body>
+</html>
