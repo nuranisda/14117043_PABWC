@@ -1,0 +1,65 @@
+body {
+    background-image: url('maldivs.jpg');
+    background-repeat: round;
+    width: 960px;
+    margin: 30px auto;
+}
+
+main {
+    display: flex;
+}
+
+.padding_this{
+    padding: 15px;
+    text-align: center;
+}
+
+.logo,
+.nav,
+.konten,
+.konten2,
+.footer {
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    background: rgba(196, 46, 96, 0.5);
+    text-align: center;
+    color: #fff;
+}
+.nav {
+    width: 100%;
+    height: auto;
+    background: rgba(239, 239, 243, 0.5);
+    text-align: center;
+    color: #fff;
+}
+.konten {
+    width: 100%;
+    background: #fff;
+}
+.konten2 {
+    width: 100%;
+    background: #fff;
+}
+.footer {
+    width: 100%;
+    background: #C3C3C3;
+    text-align: center;
+}
+
+.nav ul{
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    
+}
+.nav li{
+    
+    float: left;
+    margin: 0 10px;
+}
