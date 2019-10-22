@@ -6,37 +6,31 @@
 </head>
 
 <body>
-    <form name="frm01" method="post">
-        <table>
-            <tr>
-                <td>Masukkan Angka</td>
-                <td>
-                    <input type="text" name="txtAngka" size="5" />
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" name="hasil" value="Hasil" />
-                </td>
-            </tr>
-        </table>
+    <form name="form" method="post">
+    <p>
+                <label>Masukkan angka : </label>
+                <input type="text" name="Angka" size="5" />
+    </p>
+    <p>
+                    <input type="submit" name="hitung" value="hitung" />
+    </p>
         <?php
 error_reporting(0);
-if($_POST['hasil']!=''){
-            $angka=$_POST['txtAngka'];
+if($_POST['hitung']!=''){
+            $angka=$_POST['Angka'];
 
             function faktorial($angka){
             if($angka<=1){
                         $hasil=1;
                         return $hasil; 
-            }elseif($angka>1){
+            }else if($angka>1){
                         for($i=1; $i<=$angka; $i++){
                              $hasil=$angka * faktorial($angka-1);
                         }
                         return $hasil;
             }
 }
-         echo "Angka :".$angka."<br>";
+         echo "Angka : ".$angka."<br>";
    echo "Faktorial dari "." ".$angka." "."adalah :"." ".faktorial($angka);
 }
 ?>
